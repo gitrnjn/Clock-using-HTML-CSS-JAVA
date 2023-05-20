@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-right: 40px;
+}
+.clock{
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    letter-spacing: 3px;
+    border: 1px solid white;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    left: 370px;
+    box-shadow: 10px 10px 3px grey;
+}
+#clocktime{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;;
+    font-size: 7rem;
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    text-shadow: 5px 5px 5px black;
+}
